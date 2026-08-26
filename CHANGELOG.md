@@ -17,7 +17,7 @@ and this project aims to adhere to [Semantic Versioning](http://semver.org/spec/
 
 ### Fixed <!-- for any bug fixes. -->
 
-## [3.11.0] - 2026-08-26
+## [3.11.0] - 2026-08-28
 
 ### Added
 
@@ -29,6 +29,9 @@ and this project aims to adhere to [Semantic Versioning](http://semver.org/spec/
 
 - `ungrouped_first` config (default `true`) to control whether ungrouped personas render before or
   after named groups
+
+- `groups` config to control the display order of named groups (array or hash), and to give groups
+  human-friendly labels (hash form, keyed by the group's raw name).
 
 ## [3.10.0] - 2026-08-10
 
